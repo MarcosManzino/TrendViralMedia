@@ -1,5 +1,6 @@
 /* Generales */
 body {
+    font-family: 'Roboto', sans-serif;
     margin: 0px;
 }
 
@@ -100,6 +101,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 main .main--inicio {
@@ -212,3 +214,26 @@ main .main--inicio div .imagenes img {
     height: 40px;
     pointer-events: none;
 }
+/* -------------------------------------------- */
+main .main--text{
+    font-size: 10vh;
+    width: 70%;
+    margin: 5vh;
+    text-align: center;
+    font-weight: 1000;
+}
+.blue-text {
+    color: blue;
+}
+.main--text p{
+    margin-top: 25px;
+    font-size: 28px;
+}
+.img1 {
+    display: block;
+  }
+  
+  .img2 {
+    display: none;
+  }
+  
